@@ -62,7 +62,7 @@ class DetailPage extends StatelessWidget {
                     child: Hero(
                       tag: pokemon.id!,
                       child: CachedNetworkImage(
-                        imageUrl: pokemon.img ?? '',
+                        imageUrl: pokemon.img ?? ' ',
                         height: 0.25.sh,
                         fit: BoxFit.fitHeight,
                       ),
